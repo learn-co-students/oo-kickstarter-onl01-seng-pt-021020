@@ -11,6 +11,7 @@ class Project
     @backers << backer
     backer.backed_projects << self #adds the project to the backer's backed_projects array 
     #self is an instance of Project, so self is some project 
+    #we are adding a project instance to all the backed projects of a backer
     #binding.pry
     
   end 

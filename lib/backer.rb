@@ -14,5 +14,6 @@ class Backer
     #binding.pry
     #Here, self is an instance of Backer 
     #self is some backer 
+    #We are adding an instance of Backer to all the backers of a project 
   end 
 end 
